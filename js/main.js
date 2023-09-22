@@ -15,7 +15,7 @@ function calculate(n1, n2, l) {
     let sum = 0
 
     if(arr.length < 2) {
-        return 'Массив < 2'
+        return 'Массив < 2, выберите длина по больше'
     }
 
     let checkA = arr[0] >= 0 ? 1: -1
