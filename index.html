@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная № 2</title>
+    <link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box__container">
+            <div class="box">
+                <h1 class="box__title">Лабораторная работа № 2</h1>
+                <img src="image/photo.png" alt="photo" class="box__img">
+                <p class="box__text">Укажите диапазон массива от -n до n. Длина массива должна быть > 2</p>
+                <div class="box__inputs-container">
+                    <input type="number" class="box__input" id="input" placeholder="-n">
+                    <input type="number" class="box__input" id="input1" placeholder="n">
+                    <input type="number" class="box__input" id="input2" placeholder="Длина массива">
+                </div>
+                <button class="box__btn" id="btn">Вычислить</button>
+                
+                <fieldset>
+                    <legend>Ответ</legend>
+                    <p class="box__result" id="result">0</p>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
